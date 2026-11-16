@@ -1,0 +1,11 @@
+.env
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Large external datasets (downloaded on demand)
+data/raw_datasets/
+
+# Private local research log (kept local only)
+notes/experiment-log.md

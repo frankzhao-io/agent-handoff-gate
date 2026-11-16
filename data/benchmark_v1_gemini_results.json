@@ -1,0 +1,38 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "n_tasks": 48,
+  "arms": {
+    "A2_Unconstrained_3Agent": {
+      "pass_at_1": 0.5,
+      "false_consensus_rate": 0.75,
+      "error_propagation_rate": 0.5,
+      "total_tokens": 25691,
+      "avg_tokens_per_task": 535.2,
+      "total_sec": 407.06,
+      "by_category": {
+        "C0_clean_control": "8/8 (100.0%)",
+        "C1_whitespace_col": "0/8 (0.0%)",
+        "C2_currency_na": "0/8 (0.0%)",
+        "C3_dirty_category": "8/8 (100.0%)",
+        "C4_mixed_dates": "0/8 (0.0%)",
+        "C5_join_key_mismatch": "8/8 (100.0%)"
+      }
+    },
+    "A4_Bidirectional_Gate": {
+      "pass_at_1": 1.0,
+      "false_consensus_rate": 0.0,
+      "error_propagation_rate": 0.0,
+      "total_tokens": 34863,
+      "avg_tokens_per_task": 726.3,
+      "total_sec": 342.12,
+      "by_category": {
+        "C0_clean_control": "8/8 (100.0%)",
+        "C1_whitespace_col": "8/8 (100.0%)",
+        "C2_currency_na": "8/8 (100.0%)",
+        "C3_dirty_category": "8/8 (100.0%)",
+        "C4_mixed_dates": "8/8 (100.0%)",
+        "C5_join_key_mismatch": "8/8 (100.0%)"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "InfiAgent-DABench",
+  "model": "qwen2.5-coder:7b",
+  "n_tasks": 25,
+  "arms": {
+    "A2_Unconstrained_3Agent": {
+      "pass_at_1": 0.32,
+      "false_consensus_rate": 0.7059,
+      "error_propagation_rate": 0.68,
+      "avg_tokens_per_task": 2593.0,
+      "total_sec": 380.14,
+      "by_level": {
+        "hard": "4/20 (20.0%)",
+        "medium": "4/5 (80.0%)"
+      }
+    },
+    "A4_Bidirectional_Gate": {
+      "pass_at_1": 0.6,
+      "false_consensus_rate": 0.0,
+      "error_propagation_rate": 0.4,
+      "avg_tokens_per_task": 3371.3,
+      "total_sec": 442.04,
+      "by_level": {
+        "hard": "10/20 (50.0%)",
+        "medium": "5/5 (100.0%)"
+      }
+    }
+  }
+}

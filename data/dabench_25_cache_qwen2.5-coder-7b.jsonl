@@ -1,0 +1,50 @@
+{"arm": "A2_Unconstrained_3Agent", "id": 7, "level": "hard", "file": "test_ave.csv", "passed": false, "false_consensus": false, "tokens": 3128, "sec": 25.25}
+{"arm": "A2_Unconstrained_3Agent", "id": 23, "level": "hard", "file": "unemployement_industry.csv", "passed": false, "false_consensus": true, "tokens": 2830, "sec": 14.68}
+{"arm": "A2_Unconstrained_3Agent", "id": 30, "level": "hard", "file": "insurance.csv", "passed": false, "false_consensus": true, "tokens": 2835, "sec": 14.49}
+{"arm": "A2_Unconstrained_3Agent", "id": 39, "level": "hard", "file": "imp.score.ldlr.metabolome.csv", "passed": false, "false_consensus": true, "tokens": 2770, "sec": 16.05}
+{"arm": "A2_Unconstrained_3Agent", "id": 70, "level": "hard", "file": "beauty and the labor market.csv", "passed": false, "false_consensus": false, "tokens": 2869, "sec": 14.49}
+{"arm": "A2_Unconstrained_3Agent", "id": 111, "level": "hard", "file": "test_Y3wMUE5_7gLdaTN.csv", "passed": false, "false_consensus": true, "tokens": 2237, "sec": 13.94}
+{"arm": "A2_Unconstrained_3Agent", "id": 137, "level": "hard", "file": "titanic.csv", "passed": false, "false_consensus": true, "tokens": 3759, "sec": 17.43}
+{"arm": "A2_Unconstrained_3Agent", "id": 222, "level": "hard", "file": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv", "passed": false, "false_consensus": false, "tokens": 2980, "sec": 16.43}
+{"arm": "A2_Unconstrained_3Agent", "id": 224, "level": "hard", "file": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv", "passed": false, "false_consensus": true, "tokens": 2473, "sec": 13.14}
+{"arm": "A2_Unconstrained_3Agent", "id": 249, "level": "hard", "file": "baseball_data.csv", "passed": false, "false_consensus": true, "tokens": 2715, "sec": 15.73}
+{"arm": "A2_Unconstrained_3Agent", "id": 310, "level": "hard", "file": "titanic.csv", "passed": false, "false_consensus": true, "tokens": 2374, "sec": 14.39}
+{"arm": "A2_Unconstrained_3Agent", "id": 363, "level": "hard", "file": "weather_train.csv", "passed": false, "false_consensus": true, "tokens": 2432, "sec": 15.08}
+{"arm": "A2_Unconstrained_3Agent", "id": 432, "level": "hard", "file": "cost_data_with_errors.csv", "passed": false, "false_consensus": false, "tokens": 2306, "sec": 13.03}
+{"arm": "A2_Unconstrained_3Agent", "id": 480, "level": "hard", "file": "oecd_education_spending.csv", "passed": true, "false_consensus": false, "tokens": 2221, "sec": 13.95}
+{"arm": "A2_Unconstrained_3Agent", "id": 521, "level": "hard", "file": "titanic.csv", "passed": true, "false_consensus": false, "tokens": 2664, "sec": 16.21}
+{"arm": "A2_Unconstrained_3Agent", "id": 522, "level": "hard", "file": "titanic.csv", "passed": false, "false_consensus": true, "tokens": 3284, "sec": 17.67}
+{"arm": "A2_Unconstrained_3Agent", "id": 590, "level": "hard", "file": "20170413_000000_group_statistics.csv", "passed": false, "false_consensus": false, "tokens": 3499, "sec": 16.98}
+{"arm": "A2_Unconstrained_3Agent", "id": 671, "level": "hard", "file": "my_test_01.csv", "passed": true, "false_consensus": false, "tokens": 2447, "sec": 15.49}
+{"arm": "A2_Unconstrained_3Agent", "id": 727, "level": "hard", "file": "auto-mpg.csv", "passed": true, "false_consensus": false, "tokens": 2488, "sec": 15.28}
+{"arm": "A2_Unconstrained_3Agent", "id": 732, "level": "hard", "file": "gapminder_cleaned.csv", "passed": false, "false_consensus": true, "tokens": 2720, "sec": 16.18}
+{"arm": "A2_Unconstrained_3Agent", "id": 5, "level": "medium", "file": "test_ave.csv", "passed": true, "false_consensus": false, "tokens": 1755, "sec": 11.92}
+{"arm": "A2_Unconstrained_3Agent", "id": 35, "level": "medium", "file": "imp.score.ldlr.metabolome.csv", "passed": false, "false_consensus": true, "tokens": 1807, "sec": 11.69}
+{"arm": "A2_Unconstrained_3Agent", "id": 69, "level": "medium", "file": "beauty and the labor market.csv", "passed": true, "false_consensus": false, "tokens": 1768, "sec": 12.28}
+{"arm": "A2_Unconstrained_3Agent", "id": 105, "level": "medium", "file": "test_Y3wMUE5_7gLdaTN.csv", "passed": true, "false_consensus": false, "tokens": 1929, "sec": 12.98}
+{"arm": "A2_Unconstrained_3Agent", "id": 132, "level": "medium", "file": "titanic.csv", "passed": true, "false_consensus": false, "tokens": 2535, "sec": 15.38}
+{"arm": "A4_Bidirectional_Gate", "id": 7, "level": "hard", "file": "test_ave.csv", "passed": false, "false_consensus": false, "tokens": 3691, "sec": 16.4}
+{"arm": "A4_Bidirectional_Gate", "id": 23, "level": "hard", "file": "unemployement_industry.csv", "passed": true, "false_consensus": false, "tokens": 5513, "sec": 24.89}
+{"arm": "A4_Bidirectional_Gate", "id": 30, "level": "hard", "file": "insurance.csv", "passed": true, "false_consensus": false, "tokens": 3423, "sec": 17.53}
+{"arm": "A4_Bidirectional_Gate", "id": 39, "level": "hard", "file": "imp.score.ldlr.metabolome.csv", "passed": true, "false_consensus": false, "tokens": 4593, "sec": 18.88}
+{"arm": "A4_Bidirectional_Gate", "id": 70, "level": "hard", "file": "beauty and the labor market.csv", "passed": false, "false_consensus": false, "tokens": 3728, "sec": 17.73}
+{"arm": "A4_Bidirectional_Gate", "id": 111, "level": "hard", "file": "test_Y3wMUE5_7gLdaTN.csv", "passed": false, "false_consensus": false, "tokens": 3373, "sec": 15.44}
+{"arm": "A4_Bidirectional_Gate", "id": 137, "level": "hard", "file": "titanic.csv", "passed": false, "false_consensus": false, "tokens": 4877, "sec": 21.04}
+{"arm": "A4_Bidirectional_Gate", "id": 222, "level": "hard", "file": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv", "passed": false, "false_consensus": false, "tokens": 3481, "sec": 19.21}
+{"arm": "A4_Bidirectional_Gate", "id": 224, "level": "hard", "file": "ferret-Pitt-2-preinf-lib2-100_sitediffsel.csv", "passed": false, "false_consensus": false, "tokens": 3707, "sec": 19.26}
+{"arm": "A4_Bidirectional_Gate", "id": 249, "level": "hard", "file": "baseball_data.csv", "passed": false, "false_consensus": false, "tokens": 4167, "sec": 23.13}
+{"arm": "A4_Bidirectional_Gate", "id": 310, "level": "hard", "file": "titanic.csv", "passed": false, "false_consensus": false, "tokens": 2950, "sec": 18.63}
+{"arm": "A4_Bidirectional_Gate", "id": 363, "level": "hard", "file": "weather_train.csv", "passed": true, "false_consensus": false, "tokens": 3091, "sec": 19.73}
+{"arm": "A4_Bidirectional_Gate", "id": 432, "level": "hard", "file": "cost_data_with_errors.csv", "passed": true, "false_consensus": false, "tokens": 3600, "sec": 16.52}
+{"arm": "A4_Bidirectional_Gate", "id": 480, "level": "hard", "file": "oecd_education_spending.csv", "passed": true, "false_consensus": false, "tokens": 1697, "sec": 13.44}
+{"arm": "A4_Bidirectional_Gate", "id": 521, "level": "hard", "file": "titanic.csv", "passed": true, "false_consensus": false, "tokens": 2093, "sec": 13.07}
+{"arm": "A4_Bidirectional_Gate", "id": 522, "level": "hard", "file": "titanic.csv", "passed": false, "false_consensus": false, "tokens": 5125, "sec": 21.0}
+{"arm": "A4_Bidirectional_Gate", "id": 590, "level": "hard", "file": "20170413_000000_group_statistics.csv", "passed": false, "false_consensus": false, "tokens": 6802, "sec": 36.99}
+{"arm": "A4_Bidirectional_Gate", "id": 671, "level": "hard", "file": "my_test_01.csv", "passed": true, "false_consensus": false, "tokens": 1705, "sec": 12.15}
+{"arm": "A4_Bidirectional_Gate", "id": 727, "level": "hard", "file": "auto-mpg.csv", "passed": true, "false_consensus": false, "tokens": 1722, "sec": 12.37}
+{"arm": "A4_Bidirectional_Gate", "id": 732, "level": "hard", "file": "gapminder_cleaned.csv", "passed": true, "false_consensus": false, "tokens": 2890, "sec": 20.99}
+{"arm": "A4_Bidirectional_Gate", "id": 5, "level": "medium", "file": "test_ave.csv", "passed": true, "false_consensus": false, "tokens": 2118, "sec": 12.04}
+{"arm": "A4_Bidirectional_Gate", "id": 35, "level": "medium", "file": "imp.score.ldlr.metabolome.csv", "passed": true, "false_consensus": false, "tokens": 3533, "sec": 13.99}
+{"arm": "A4_Bidirectional_Gate", "id": 69, "level": "medium", "file": "beauty and the labor market.csv", "passed": true, "false_consensus": false, "tokens": 1784, "sec": 12.48}
+{"arm": "A4_Bidirectional_Gate", "id": 105, "level": "medium", "file": "test_Y3wMUE5_7gLdaTN.csv", "passed": true, "false_consensus": false, "tokens": 2585, "sec": 12.43}
+{"arm": "A4_Bidirectional_Gate", "id": 132, "level": "medium", "file": "titanic.csv", "passed": true, "false_consensus": false, "tokens": 2034, "sec": 12.7}

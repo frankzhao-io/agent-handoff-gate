@@ -1,0 +1,214 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "n_tasks": 6,
+  "arms": {
+    "A1_Single_Reflexion": {
+      "pass_at_1": 0.3333,
+      "false_consensus_rate": 0.0,
+      "error_propagation_rate": 0.6667,
+      "total_tokens": 4654,
+      "avg_tokens_per_task": 775.7,
+      "total_sec": 60.21,
+      "details": [
+        {
+          "task_id": "T1_whitespace_col",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 948,
+          "sec": 15.09
+        },
+        {
+          "task_id": "T2_currency_na",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 781,
+          "sec": 11.38
+        },
+        {
+          "task_id": "T3_dirty_category",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 251,
+          "sec": 3.7
+        },
+        {
+          "task_id": "T4_mixed_dates",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 1211,
+          "sec": 13.36
+        },
+        {
+          "task_id": "T5_join_key_mismatch",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 1214,
+          "sec": 12.96
+        },
+        {
+          "task_id": "T6_dedup_median",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 249,
+          "sec": 3.72
+        }
+      ]
+    },
+    "A2_Unconstrained_3Agent": {
+      "pass_at_1": 0.1667,
+      "false_consensus_rate": 0.6,
+      "error_propagation_rate": 0.8333,
+      "total_tokens": 3265,
+      "avg_tokens_per_task": 544.2,
+      "total_sec": 39.84,
+      "details": [
+        {
+          "task_id": "T1_whitespace_col",
+          "passed": false,
+          "false_consensus": true,
+          "tokens": 487,
+          "sec": 6.46
+        },
+        {
+          "task_id": "T2_currency_na",
+          "passed": false,
+          "false_consensus": true,
+          "tokens": 459,
+          "sec": 6.4
+        },
+        {
+          "task_id": "T3_dirty_category",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 509,
+          "sec": 6.44
+        },
+        {
+          "task_id": "T4_mixed_dates",
+          "passed": false,
+          "false_consensus": true,
+          "tokens": 736,
+          "sec": 7.51
+        },
+        {
+          "task_id": "T5_join_key_mismatch",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 626,
+          "sec": 6.74
+        },
+        {
+          "task_id": "T6_dedup_median",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 448,
+          "sec": 6.29
+        }
+      ]
+    },
+    "A3_Forward_Only_Gate": {
+      "pass_at_1": 0.1667,
+      "false_consensus_rate": 0.4,
+      "error_propagation_rate": 0.8333,
+      "total_tokens": 4837,
+      "avg_tokens_per_task": 806.2,
+      "total_sec": 54.9,
+      "details": [
+        {
+          "task_id": "T1_whitespace_col",
+          "passed": false,
+          "false_consensus": true,
+          "tokens": 873,
+          "sec": 10.09
+        },
+        {
+          "task_id": "T2_currency_na",
+          "passed": false,
+          "false_consensus": true,
+          "tokens": 819,
+          "sec": 9.82
+        },
+        {
+          "task_id": "T3_dirty_category",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 228,
+          "sec": 3.55
+        },
+        {
+          "task_id": "T4_mixed_dates",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 1164,
+          "sec": 11.21
+        },
+        {
+          "task_id": "T5_join_key_mismatch",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 1078,
+          "sec": 10.54
+        },
+        {
+          "task_id": "T6_dedup_median",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 675,
+          "sec": 9.69
+        }
+      ]
+    },
+    "A4_Bidirectional_Gate": {
+      "pass_at_1": 0.8333,
+      "false_consensus_rate": 0.0,
+      "error_propagation_rate": 0.1667,
+      "total_tokens": 4987,
+      "avg_tokens_per_task": 831.2,
+      "total_sec": 43.1,
+      "details": [
+        {
+          "task_id": "T1_whitespace_col",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 594,
+          "sec": 6.52
+        },
+        {
+          "task_id": "T2_currency_na",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 698,
+          "sec": 7.21
+        },
+        {
+          "task_id": "T3_dirty_category",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 684,
+          "sec": 6.81
+        },
+        {
+          "task_id": "T4_mixed_dates",
+          "passed": false,
+          "false_consensus": false,
+          "tokens": 1812,
+          "sec": 11.89
+        },
+        {
+          "task_id": "T5_join_key_mismatch",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 504,
+          "sec": 3.94
+        },
+        {
+          "task_id": "T6_dedup_median",
+          "passed": true,
+          "false_consensus": false,
+          "tokens": 695,
+          "sec": 6.73
+        }
+      ]
+    }
+  }
+}

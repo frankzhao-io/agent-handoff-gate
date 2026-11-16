@@ -1,0 +1,70 @@
+{
+  "model": "qwen2.5-coder:7b",
+  "n_tasks": 48,
+  "arms": {
+    "A1_Single_Reflexion": {
+      "pass_at_1": 0.375,
+      "false_consensus_rate": 0.0,
+      "error_propagation_rate": 0.625,
+      "total_tokens": 35656,
+      "avg_tokens_per_task": 742.8,
+      "total_sec": 440.49,
+      "by_category": {
+        "C0_clean_control": "8/8 (100.0%)",
+        "C1_whitespace_col": "0/8 (0.0%)",
+        "C2_currency_na": "0/8 (0.0%)",
+        "C3_dirty_category": "8/8 (100.0%)",
+        "C4_mixed_dates": "2/8 (25.0%)",
+        "C5_join_key_mismatch": "0/8 (0.0%)"
+      }
+    },
+    "A2_Unconstrained_3Agent": {
+      "pass_at_1": 0.3333,
+      "false_consensus_rate": 0.5312,
+      "error_propagation_rate": 0.6667,
+      "total_tokens": 26399,
+      "avg_tokens_per_task": 550.0,
+      "total_sec": 317.05,
+      "by_category": {
+        "C0_clean_control": "8/8 (100.0%)",
+        "C1_whitespace_col": "0/8 (0.0%)",
+        "C2_currency_na": "0/8 (0.0%)",
+        "C3_dirty_category": "8/8 (100.0%)",
+        "C4_mixed_dates": "0/8 (0.0%)",
+        "C5_join_key_mismatch": "0/8 (0.0%)"
+      }
+    },
+    "A3_Forward_Only_Gate": {
+      "pass_at_1": 0.4167,
+      "false_consensus_rate": 0.5357,
+      "error_propagation_rate": 0.5833,
+      "total_tokens": 34907,
+      "avg_tokens_per_task": 727.2,
+      "total_sec": 384.94,
+      "by_category": {
+        "C0_clean_control": "8/8 (100.0%)",
+        "C1_whitespace_col": "0/8 (0.0%)",
+        "C2_currency_na": "0/8 (0.0%)",
+        "C3_dirty_category": "8/8 (100.0%)",
+        "C4_mixed_dates": "4/8 (50.0%)",
+        "C5_join_key_mismatch": "0/8 (0.0%)"
+      }
+    },
+    "A4_Bidirectional_Gate": {
+      "pass_at_1": 0.8958,
+      "false_consensus_rate": 0.0,
+      "error_propagation_rate": 0.1042,
+      "total_tokens": 32167,
+      "avg_tokens_per_task": 670.1,
+      "total_sec": 310.52,
+      "by_category": {
+        "C0_clean_control": "8/8 (100.0%)",
+        "C1_whitespace_col": "8/8 (100.0%)",
+        "C2_currency_na": "3/8 (37.5%)",
+        "C3_dirty_category": "8/8 (100.0%)",
+        "C4_mixed_dates": "8/8 (100.0%)",
+        "C5_join_key_mismatch": "8/8 (100.0%)"
+      }
+    }
+  }
+}

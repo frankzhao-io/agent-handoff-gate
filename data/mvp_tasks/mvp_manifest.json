@@ -1,0 +1,120 @@
+[
+  {
+    "task_id": "T1_whitespace_col",
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T1_whitespace_col",
+    "files": [
+      "sales.csv"
+    ],
+    "question": "Compute the total revenue for region == 'North' in sales.csv. Print only the final float.",
+    "expected_answer": 500.0,
+    "tolerance": 0.0001,
+    "corrupted_plan": {
+      "steps": [
+        "Load sales.csv",
+        "Filter rows where region == 'North'",
+        "Sum the 'revenue' column"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: sales.csv has columns ['region', 'revenue'] with float dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "T2_currency_na",
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T2_currency_na",
+    "files": [
+      "transactions.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in the 'amount' column of transactions.csv. Print only the final float.",
+    "expected_answer": 1000.0,
+    "tolerance": 0.0001,
+    "corrupted_plan": {
+      "steps": [
+        "Load transactions.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: transactions.csv column 'amount' is already float64 with no currency symbols."
+      ]
+    }
+  },
+  {
+    "task_id": "T3_dirty_category",
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T3_dirty_category",
+    "files": [
+      "lab_orders.csv"
+    ],
+    "question": "Compute the total cost for all rows belonging to category 'Bio' (case-insensitive, ignoring leading/trailing spaces) in lab_orders.csv. Print only the final float.",
+    "expected_answer": 100.0,
+    "tolerance": 0.0001,
+    "corrupted_plan": {
+      "steps": [
+        "Load lab_orders.csv",
+        "Filter df[df['category'] == 'Bio']",
+        "Sum cost"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: category column is already normalized to exact title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "T4_mixed_dates",
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T4_mixed_dates",
+    "files": [
+      "events.csv"
+    ],
+    "question": "Count how many valid events occurred in Q1 2025 (2025-01-01 to 2025-03-31 inclusive) in events.csv. Print only the final integer/float.",
+    "expected_answer": 4.0,
+    "tolerance": 0.0001,
+    "corrupted_plan": {
+      "steps": [
+        "Load events.csv",
+        "Parse event_date with pd.to_datetime(df['event_date']) without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: event_date strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "T5_join_key_mismatch",
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T5_join_key_mismatch",
+    "files": [
+      "users.csv",
+      "orders.csv"
+    ],
+    "question": "Join users.csv and orders.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 200.0,
+    "tolerance": 0.0001,
+    "corrupted_plan": {
+      "steps": [
+        "Load users.csv and orders.csv",
+        "Directly run pd.merge(users, orders, on='user_id')",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users.csv and orders.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "T6_dedup_median",
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T6_dedup_median",
+    "files": [
+      "assay.csv"
+    ],
+    "question": "Deduplicate assay.csv by sample_id (keeping first), drop missing scores, and compute the median score. Print only the final float.",
+    "expected_answer": 20.0,
+    "tolerance": 0.0001,
+    "corrupted_plan": {
+      "steps": [
+        "Load assay.csv",
+        "Compute df['score'].mean() without deduplicating sample_id"
+      ],
+      "assumed_claims": [
+        "ASSUMED_UNIQUENESS: sample_id is already unique and metric requested is mean."
+      ]
+    }
+  }
+]

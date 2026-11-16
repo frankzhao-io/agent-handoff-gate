@@ -1,0 +1,1034 @@
+[
+  {
+    "task_id": "C0_clean_00",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_00",
+    "files": [
+      "clean_0.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_0.csv. Print only the final float.",
+    "expected_answer": 449.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_0.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_01",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_01",
+    "files": [
+      "clean_1.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_1.csv. Print only the final float.",
+    "expected_answer": 252.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_1.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_02",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_02",
+    "files": [
+      "clean_2.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_2.csv. Print only the final float.",
+    "expected_answer": 205.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_2.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_03",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_03",
+    "files": [
+      "clean_3.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_3.csv. Print only the final float.",
+    "expected_answer": 342.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_3.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_04",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_04",
+    "files": [
+      "clean_4.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_4.csv. Print only the final float.",
+    "expected_answer": 341.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_4.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_05",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_05",
+    "files": [
+      "clean_5.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_5.csv. Print only the final float.",
+    "expected_answer": 153.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_5.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_06",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_06",
+    "files": [
+      "clean_6.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_6.csv. Print only the final float.",
+    "expected_answer": 169.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_6.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C0_clean_07",
+    "category": "C0_clean_control",
+    "is_corrupted_plan": false,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_07",
+    "files": [
+      "clean_7.csv"
+    ],
+    "question": "Compute the sum of 'metric' where group == 'Alpha' in clean_7.csv. Print only the final float.",
+    "expected_answer": 255.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load clean_7.csv",
+        "Filter group == 'Alpha'",
+        "Sum 'metric'"
+      ],
+      "assumed_claims": []
+    }
+  },
+  {
+    "task_id": "C1_ws_00",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_00",
+    "files": [
+      "ledger_0.csv"
+    ],
+    "question": "Compute the total score for segment == 'North' in ledger_0.csv. Print only the final float.",
+    "expected_answer": 407.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_0.csv",
+        "Filter segment == 'North'",
+        "Sum column 'score'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_0.csv has exact columns ['segment', 'score'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_01",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_01",
+    "files": [
+      "ledger_1.csv"
+    ],
+    "question": "Compute the total revenue for segment == 'North' in ledger_1.csv. Print only the final float.",
+    "expected_answer": 452.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_1.csv",
+        "Filter segment == 'North'",
+        "Sum column 'revenue'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_1.csv has exact columns ['segment', 'revenue'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_02",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_02",
+    "files": [
+      "ledger_2.csv"
+    ],
+    "question": "Compute the total revenue for segment == 'North' in ledger_2.csv. Print only the final float.",
+    "expected_answer": 287.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_2.csv",
+        "Filter segment == 'North'",
+        "Sum column 'revenue'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_2.csv has exact columns ['segment', 'revenue'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_03",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_03",
+    "files": [
+      "ledger_3.csv"
+    ],
+    "question": "Compute the total revenue for segment == 'North' in ledger_3.csv. Print only the final float.",
+    "expected_answer": 479.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_3.csv",
+        "Filter segment == 'North'",
+        "Sum column 'revenue'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_3.csv has exact columns ['segment', 'revenue'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_04",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_04",
+    "files": [
+      "ledger_4.csv"
+    ],
+    "question": "Compute the total revenue for segment == 'North' in ledger_4.csv. Print only the final float.",
+    "expected_answer": 340.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_4.csv",
+        "Filter segment == 'North'",
+        "Sum column 'revenue'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_4.csv has exact columns ['segment', 'revenue'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_05",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_05",
+    "files": [
+      "ledger_5.csv"
+    ],
+    "question": "Compute the total revenue for segment == 'North' in ledger_5.csv. Print only the final float.",
+    "expected_answer": 308.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_5.csv",
+        "Filter segment == 'North'",
+        "Sum column 'revenue'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_5.csv has exact columns ['segment', 'revenue'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_06",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_06",
+    "files": [
+      "ledger_6.csv"
+    ],
+    "question": "Compute the total revenue for segment == 'North' in ledger_6.csv. Print only the final float.",
+    "expected_answer": 332.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_6.csv",
+        "Filter segment == 'North'",
+        "Sum column 'revenue'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_6.csv has exact columns ['segment', 'revenue'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C1_ws_07",
+    "category": "C1_whitespace_col",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_07",
+    "files": [
+      "ledger_7.csv"
+    ],
+    "question": "Compute the total score for segment == 'North' in ledger_7.csv. Print only the final float.",
+    "expected_answer": 648.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load ledger_7.csv",
+        "Filter segment == 'North'",
+        "Sum column 'score'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_SCHEMA: ledger_7.csv has exact columns ['segment', 'score'] with float64 dtype."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_00",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_00",
+    "files": [
+      "payments_0.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_0.csv. Print only the final float.",
+    "expected_answer": 1222.5,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_0.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_0.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_01",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_01",
+    "files": [
+      "payments_1.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_1.csv. Print only the final float.",
+    "expected_answer": 1279.1666666666667,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_1.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_1.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_02",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_02",
+    "files": [
+      "payments_2.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_2.csv. Print only the final float.",
+    "expected_answer": 1211.5,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_2.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_2.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_03",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_03",
+    "files": [
+      "payments_3.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_3.csv. Print only the final float.",
+    "expected_answer": 1475.1666666666667,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_3.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_3.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_04",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_04",
+    "files": [
+      "payments_4.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_4.csv. Print only the final float.",
+    "expected_answer": 1383.6666666666667,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_4.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_4.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_05",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_05",
+    "files": [
+      "payments_5.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_5.csv. Print only the final float.",
+    "expected_answer": 1624.5,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_5.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_5.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_06",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_06",
+    "files": [
+      "payments_6.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_6.csv. Print only the final float.",
+    "expected_answer": 1346.8333333333333,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_6.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_6.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C2_curr_07",
+    "category": "C2_currency_na",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_07",
+    "files": [
+      "payments_7.csv"
+    ],
+    "question": "Compute the mean of valid numeric values in 'amount' of payments_7.csv. Print only the final float.",
+    "expected_answer": 1175.6666666666667,
+    "tolerance": 0.001,
+    "upstream_plan": {
+      "steps": [
+        "Load payments_7.csv",
+        "Compute df['amount'].mean() directly"
+      ],
+      "assumed_claims": [
+        "ASSUMED_DTYPE: payments_7.csv column 'amount' is already float64 with no currency symbols or text NAs."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_00",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_00",
+    "files": [
+      "expenses_0.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_0.csv. Print only the final float.",
+    "expected_answer": 510.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_0.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_0.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_01",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_01",
+    "files": [
+      "expenses_1.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_1.csv. Print only the final float.",
+    "expected_answer": 574.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_1.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_1.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_02",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_02",
+    "files": [
+      "expenses_2.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_2.csv. Print only the final float.",
+    "expected_answer": 199.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_2.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_2.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_03",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_03",
+    "files": [
+      "expenses_3.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_3.csv. Print only the final float.",
+    "expected_answer": 360.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_3.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_3.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_04",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_04",
+    "files": [
+      "expenses_4.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_4.csv. Print only the final float.",
+    "expected_answer": 409.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_4.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_4.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_05",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_05",
+    "files": [
+      "expenses_5.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_5.csv. Print only the final float.",
+    "expected_answer": 164.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_5.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_5.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_06",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_06",
+    "files": [
+      "expenses_6.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_6.csv. Print only the final float.",
+    "expected_answer": 472.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_6.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_6.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C3_cat_07",
+    "category": "C3_dirty_category",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_07",
+    "files": [
+      "expenses_7.csv"
+    ],
+    "question": "Compute the total spend for dept 'Bio' (case-insensitive, ignoring leading/trailing spaces) in expenses_7.csv. Print only the final float.",
+    "expected_answer": 361.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load expenses_7.csv",
+        "Filter df[df['dept'] == 'Bio']",
+        "Sum 'spend'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_VALUES: expenses_7.csv.dept contains exact normalized title-case strings without whitespace."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_00",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_00",
+    "files": [
+      "logs_0.csv"
+    ],
+    "question": "Count how many valid rows in logs_0.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 4.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_0.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_0.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_01",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_01",
+    "files": [
+      "logs_1.csv"
+    ],
+    "question": "Count how many valid rows in logs_1.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 3.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_1.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_1.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_02",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_02",
+    "files": [
+      "logs_2.csv"
+    ],
+    "question": "Count how many valid rows in logs_2.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 3.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_2.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_2.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_03",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_03",
+    "files": [
+      "logs_3.csv"
+    ],
+    "question": "Count how many valid rows in logs_3.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 2.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_3.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_3.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_04",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_04",
+    "files": [
+      "logs_4.csv"
+    ],
+    "question": "Count how many valid rows in logs_4.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 3.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_4.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_4.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_05",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_05",
+    "files": [
+      "logs_5.csv"
+    ],
+    "question": "Count how many valid rows in logs_5.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 4.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_5.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_5.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_06",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_06",
+    "files": [
+      "logs_6.csv"
+    ],
+    "question": "Count how many valid rows in logs_6.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 3.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_6.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_6.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C4_date_07",
+    "category": "C4_mixed_dates",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_07",
+    "files": [
+      "logs_7.csv"
+    ],
+    "question": "Count how many valid rows in logs_7.csv have 'dt' in Q1 2025 (2025-01-01 to 2025-03-31 inclusive). Print only the final number.",
+    "expected_answer": 3.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load logs_7.csv",
+        "Run pd.to_datetime(df['dt']) directly without format='mixed' or errors='coerce'"
+      ],
+      "assumed_claims": [
+        "ASSUMED_FORMAT: logs_7.csv.dt strictly follows ISO '%Y-%m-%d' with zero invalid rows."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_00",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_00",
+    "files": [
+      "users_0.csv",
+      "orders_0.csv"
+    ],
+    "question": "Join users_0.csv and orders_0.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 259.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_0.csv and orders_0.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_0.csv and orders_0.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_01",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_01",
+    "files": [
+      "users_1.csv",
+      "orders_1.csv"
+    ],
+    "question": "Join users_1.csv and orders_1.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 379.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_1.csv and orders_1.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_1.csv and orders_1.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_02",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_02",
+    "files": [
+      "users_2.csv",
+      "orders_2.csv"
+    ],
+    "question": "Join users_2.csv and orders_2.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 326.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_2.csv and orders_2.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_2.csv and orders_2.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_03",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_03",
+    "files": [
+      "users_3.csv",
+      "orders_3.csv"
+    ],
+    "question": "Join users_3.csv and orders_3.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 347.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_3.csv and orders_3.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_3.csv and orders_3.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_04",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_04",
+    "files": [
+      "users_4.csv",
+      "orders_4.csv"
+    ],
+    "question": "Join users_4.csv and orders_4.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 212.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_4.csv and orders_4.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_4.csv and orders_4.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_05",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_05",
+    "files": [
+      "users_5.csv",
+      "orders_5.csv"
+    ],
+    "question": "Join users_5.csv and orders_5.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 390.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_5.csv and orders_5.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_5.csv and orders_5.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_06",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_06",
+    "files": [
+      "users_6.csv",
+      "orders_6.csv"
+    ],
+    "question": "Join users_6.csv and orders_6.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 196.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_6.csv and orders_6.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_6.csv and orders_6.csv."
+      ]
+    }
+  },
+  {
+    "task_id": "C5_join_07",
+    "category": "C5_join_key_mismatch",
+    "is_corrupted_plan": true,
+    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_07",
+    "files": [
+      "users_7.csv",
+      "orders_7.csv"
+    ],
+    "question": "Join users_7.csv and orders_7.csv on user_id (matching numeric IDs like 101 and '00101') and compute the total order amount for 'gold' tier users. Print only the final float.",
+    "expected_answer": 267.0,
+    "tolerance": 0.0001,
+    "upstream_plan": {
+      "steps": [
+        "Load users_7.csv and orders_7.csv",
+        "Run pd.merge(users, orders, on='user_id') directly",
+        "Filter tier == 'gold' and sum total"
+      ],
+      "assumed_claims": [
+        "ASSUMED_JOIN_KEY: user_id has identical int64 dtype in both users_7.csv and orders_7.csv."
+      ]
+    }
+  }
+]
