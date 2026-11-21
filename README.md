@@ -1,5 +1,7 @@
 # Bidirectional Epistemic Handoff Gating (`agent-handoff-gate`)
 
+[![CI](https://github.com/frankzhao-io/agent-handoff-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/frankzhao-io/agent-handoff-gate/actions/workflows/ci.yml)
+
 Suppressing **error propagation**, **false consensus**, and **token inflation** in multi-agent data-analysis and coding pipelines via epistemic state separation (`VERIFIED_*` vs. `ASSUMED_*`) and backward counterexample routing.
 
 ---
