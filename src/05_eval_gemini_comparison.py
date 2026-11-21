@@ -41,7 +41,11 @@ def load_api_key() -> str:
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if key:
         return key
-    for env_path in [ROOT / ".env", ROOT.parent / "track3-ai4science" / ".env"]:
+    for env_path in [
+        ROOT / ".env",
+        ROOT.parent / "grounded-chart-audit" / ".env",
+        ROOT.parent / "track3-ai4science" / ".env",
+    ]:
         if env_path.exists():
             for line in env_path.read_text(encoding="utf-8").splitlines():
                 line = line.strip()
