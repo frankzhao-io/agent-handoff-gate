@@ -3,7 +3,7 @@
     "task_id": "C0_clean_00",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_00",
+    "work_dir": "data/benchmark_v1/C0_clean_00",
     "files": [
       "clean_0.csv"
     ],
@@ -23,7 +23,7 @@
     "task_id": "C0_clean_01",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_01",
+    "work_dir": "data/benchmark_v1/C0_clean_01",
     "files": [
       "clean_1.csv"
     ],
@@ -43,7 +43,7 @@
     "task_id": "C0_clean_02",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_02",
+    "work_dir": "data/benchmark_v1/C0_clean_02",
     "files": [
       "clean_2.csv"
     ],
@@ -63,7 +63,7 @@
     "task_id": "C0_clean_03",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_03",
+    "work_dir": "data/benchmark_v1/C0_clean_03",
     "files": [
       "clean_3.csv"
     ],
@@ -83,7 +83,7 @@
     "task_id": "C0_clean_04",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_04",
+    "work_dir": "data/benchmark_v1/C0_clean_04",
     "files": [
       "clean_4.csv"
     ],
@@ -103,7 +103,7 @@
     "task_id": "C0_clean_05",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_05",
+    "work_dir": "data/benchmark_v1/C0_clean_05",
     "files": [
       "clean_5.csv"
     ],
@@ -123,7 +123,7 @@
     "task_id": "C0_clean_06",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_06",
+    "work_dir": "data/benchmark_v1/C0_clean_06",
     "files": [
       "clean_6.csv"
     ],
@@ -143,7 +143,7 @@
     "task_id": "C0_clean_07",
     "category": "C0_clean_control",
     "is_corrupted_plan": false,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C0_clean_07",
+    "work_dir": "data/benchmark_v1/C0_clean_07",
     "files": [
       "clean_7.csv"
     ],
@@ -163,7 +163,7 @@
     "task_id": "C1_ws_00",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_00",
+    "work_dir": "data/benchmark_v1/C1_ws_00",
     "files": [
       "ledger_0.csv"
     ],
@@ -185,7 +185,7 @@
     "task_id": "C1_ws_01",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_01",
+    "work_dir": "data/benchmark_v1/C1_ws_01",
     "files": [
       "ledger_1.csv"
     ],
@@ -207,7 +207,7 @@
     "task_id": "C1_ws_02",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_02",
+    "work_dir": "data/benchmark_v1/C1_ws_02",
     "files": [
       "ledger_2.csv"
     ],
@@ -229,7 +229,7 @@
     "task_id": "C1_ws_03",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_03",
+    "work_dir": "data/benchmark_v1/C1_ws_03",
     "files": [
       "ledger_3.csv"
     ],
@@ -251,7 +251,7 @@
     "task_id": "C1_ws_04",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_04",
+    "work_dir": "data/benchmark_v1/C1_ws_04",
     "files": [
       "ledger_4.csv"
     ],
@@ -273,7 +273,7 @@
     "task_id": "C1_ws_05",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_05",
+    "work_dir": "data/benchmark_v1/C1_ws_05",
     "files": [
       "ledger_5.csv"
     ],
@@ -295,7 +295,7 @@
     "task_id": "C1_ws_06",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_06",
+    "work_dir": "data/benchmark_v1/C1_ws_06",
     "files": [
       "ledger_6.csv"
     ],
@@ -317,7 +317,7 @@
     "task_id": "C1_ws_07",
     "category": "C1_whitespace_col",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C1_ws_07",
+    "work_dir": "data/benchmark_v1/C1_ws_07",
     "files": [
       "ledger_7.csv"
     ],
@@ -339,7 +339,7 @@
     "task_id": "C2_curr_00",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_00",
+    "work_dir": "data/benchmark_v1/C2_curr_00",
     "files": [
       "payments_0.csv"
     ],
@@ -360,7 +360,7 @@
     "task_id": "C2_curr_01",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_01",
+    "work_dir": "data/benchmark_v1/C2_curr_01",
     "files": [
       "payments_1.csv"
     ],
@@ -381,7 +381,7 @@
     "task_id": "C2_curr_02",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_02",
+    "work_dir": "data/benchmark_v1/C2_curr_02",
     "files": [
       "payments_2.csv"
     ],
@@ -402,7 +402,7 @@
     "task_id": "C2_curr_03",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_03",
+    "work_dir": "data/benchmark_v1/C2_curr_03",
     "files": [
       "payments_3.csv"
     ],
@@ -423,7 +423,7 @@
     "task_id": "C2_curr_04",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_04",
+    "work_dir": "data/benchmark_v1/C2_curr_04",
     "files": [
       "payments_4.csv"
     ],
@@ -444,7 +444,7 @@
     "task_id": "C2_curr_05",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_05",
+    "work_dir": "data/benchmark_v1/C2_curr_05",
     "files": [
       "payments_5.csv"
     ],
@@ -465,7 +465,7 @@
     "task_id": "C2_curr_06",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_06",
+    "work_dir": "data/benchmark_v1/C2_curr_06",
     "files": [
       "payments_6.csv"
     ],
@@ -486,7 +486,7 @@
     "task_id": "C2_curr_07",
     "category": "C2_currency_na",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C2_curr_07",
+    "work_dir": "data/benchmark_v1/C2_curr_07",
     "files": [
       "payments_7.csv"
     ],
@@ -507,7 +507,7 @@
     "task_id": "C3_cat_00",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_00",
+    "work_dir": "data/benchmark_v1/C3_cat_00",
     "files": [
       "expenses_0.csv"
     ],
@@ -529,7 +529,7 @@
     "task_id": "C3_cat_01",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_01",
+    "work_dir": "data/benchmark_v1/C3_cat_01",
     "files": [
       "expenses_1.csv"
     ],
@@ -551,7 +551,7 @@
     "task_id": "C3_cat_02",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_02",
+    "work_dir": "data/benchmark_v1/C3_cat_02",
     "files": [
       "expenses_2.csv"
     ],
@@ -573,7 +573,7 @@
     "task_id": "C3_cat_03",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_03",
+    "work_dir": "data/benchmark_v1/C3_cat_03",
     "files": [
       "expenses_3.csv"
     ],
@@ -595,7 +595,7 @@
     "task_id": "C3_cat_04",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_04",
+    "work_dir": "data/benchmark_v1/C3_cat_04",
     "files": [
       "expenses_4.csv"
     ],
@@ -617,7 +617,7 @@
     "task_id": "C3_cat_05",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_05",
+    "work_dir": "data/benchmark_v1/C3_cat_05",
     "files": [
       "expenses_5.csv"
     ],
@@ -639,7 +639,7 @@
     "task_id": "C3_cat_06",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_06",
+    "work_dir": "data/benchmark_v1/C3_cat_06",
     "files": [
       "expenses_6.csv"
     ],
@@ -661,7 +661,7 @@
     "task_id": "C3_cat_07",
     "category": "C3_dirty_category",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C3_cat_07",
+    "work_dir": "data/benchmark_v1/C3_cat_07",
     "files": [
       "expenses_7.csv"
     ],
@@ -683,7 +683,7 @@
     "task_id": "C4_date_00",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_00",
+    "work_dir": "data/benchmark_v1/C4_date_00",
     "files": [
       "logs_0.csv"
     ],
@@ -704,7 +704,7 @@
     "task_id": "C4_date_01",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_01",
+    "work_dir": "data/benchmark_v1/C4_date_01",
     "files": [
       "logs_1.csv"
     ],
@@ -725,7 +725,7 @@
     "task_id": "C4_date_02",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_02",
+    "work_dir": "data/benchmark_v1/C4_date_02",
     "files": [
       "logs_2.csv"
     ],
@@ -746,7 +746,7 @@
     "task_id": "C4_date_03",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_03",
+    "work_dir": "data/benchmark_v1/C4_date_03",
     "files": [
       "logs_3.csv"
     ],
@@ -767,7 +767,7 @@
     "task_id": "C4_date_04",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_04",
+    "work_dir": "data/benchmark_v1/C4_date_04",
     "files": [
       "logs_4.csv"
     ],
@@ -788,7 +788,7 @@
     "task_id": "C4_date_05",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_05",
+    "work_dir": "data/benchmark_v1/C4_date_05",
     "files": [
       "logs_5.csv"
     ],
@@ -809,7 +809,7 @@
     "task_id": "C4_date_06",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_06",
+    "work_dir": "data/benchmark_v1/C4_date_06",
     "files": [
       "logs_6.csv"
     ],
@@ -830,7 +830,7 @@
     "task_id": "C4_date_07",
     "category": "C4_mixed_dates",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C4_date_07",
+    "work_dir": "data/benchmark_v1/C4_date_07",
     "files": [
       "logs_7.csv"
     ],
@@ -851,7 +851,7 @@
     "task_id": "C5_join_00",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_00",
+    "work_dir": "data/benchmark_v1/C5_join_00",
     "files": [
       "users_0.csv",
       "orders_0.csv"
@@ -874,7 +874,7 @@
     "task_id": "C5_join_01",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_01",
+    "work_dir": "data/benchmark_v1/C5_join_01",
     "files": [
       "users_1.csv",
       "orders_1.csv"
@@ -897,7 +897,7 @@
     "task_id": "C5_join_02",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_02",
+    "work_dir": "data/benchmark_v1/C5_join_02",
     "files": [
       "users_2.csv",
       "orders_2.csv"
@@ -920,7 +920,7 @@
     "task_id": "C5_join_03",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_03",
+    "work_dir": "data/benchmark_v1/C5_join_03",
     "files": [
       "users_3.csv",
       "orders_3.csv"
@@ -943,7 +943,7 @@
     "task_id": "C5_join_04",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_04",
+    "work_dir": "data/benchmark_v1/C5_join_04",
     "files": [
       "users_4.csv",
       "orders_4.csv"
@@ -966,7 +966,7 @@
     "task_id": "C5_join_05",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_05",
+    "work_dir": "data/benchmark_v1/C5_join_05",
     "files": [
       "users_5.csv",
       "orders_5.csv"
@@ -989,7 +989,7 @@
     "task_id": "C5_join_06",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_06",
+    "work_dir": "data/benchmark_v1/C5_join_06",
     "files": [
       "users_6.csv",
       "orders_6.csv"
@@ -1012,7 +1012,7 @@
     "task_id": "C5_join_07",
     "category": "C5_join_key_mismatch",
     "is_corrupted_plan": true,
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\benchmark_v1\\C5_join_07",
+    "work_dir": "data/benchmark_v1/C5_join_07",
     "files": [
       "users_7.csv",
       "orders_7.csv"

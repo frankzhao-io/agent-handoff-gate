@@ -28,6 +28,10 @@ class TestHandoffGate(unittest.TestCase):
     def setUpClass(cls) -> None:
         manifest = ROOT / "data" / "benchmark_v1" / "benchmark_v1_manifest.json"
         cls.tasks = json.loads(manifest.read_text(encoding="utf-8"))
+        for t in cls.tasks:
+            wd = Path(t["work_dir"])
+            if not wd.is_absolute():
+                t["work_dir"] = str((ROOT / wd).resolve())
 
     def test_clean_control_has_no_conflicts(self) -> None:
         c0 = next(t for t in self.tasks if t["category"] == "C0_clean_control")

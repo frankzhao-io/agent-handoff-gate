@@ -1,7 +1,7 @@
 [
   {
     "task_id": "T1_whitespace_col",
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T1_whitespace_col",
+    "work_dir": "data/mvp_tasks/T1_whitespace_col",
     "files": [
       "sales.csv"
     ],
@@ -21,7 +21,7 @@
   },
   {
     "task_id": "T2_currency_na",
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T2_currency_na",
+    "work_dir": "data/mvp_tasks/T2_currency_na",
     "files": [
       "transactions.csv"
     ],
@@ -40,7 +40,7 @@
   },
   {
     "task_id": "T3_dirty_category",
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T3_dirty_category",
+    "work_dir": "data/mvp_tasks/T3_dirty_category",
     "files": [
       "lab_orders.csv"
     ],
@@ -60,7 +60,7 @@
   },
   {
     "task_id": "T4_mixed_dates",
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T4_mixed_dates",
+    "work_dir": "data/mvp_tasks/T4_mixed_dates",
     "files": [
       "events.csv"
     ],
@@ -79,7 +79,7 @@
   },
   {
     "task_id": "T5_join_key_mismatch",
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T5_join_key_mismatch",
+    "work_dir": "data/mvp_tasks/T5_join_key_mismatch",
     "files": [
       "users.csv",
       "orders.csv"
@@ -100,7 +100,7 @@
   },
   {
     "task_id": "T6_dedup_median",
-    "work_dir": "D:\\_F\\Side\\_R\\agent-handoff-gate\\data\\mvp_tasks\\T6_dedup_median",
+    "work_dir": "data/mvp_tasks/T6_dedup_median",
     "files": [
       "assay.csv"
     ],
